@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(64, 244, 244, 0.963);
+  list-style-type: none;
+}
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(3, 400px);
+  grid-template-areas:
+    "header header header"
+    "secciones secciones secciones"
+    "footer footer footer";
+  justify-content: center;
+}
+
+.header {
+  border: 3px solid rgba(64, 244, 244, 0.963);
+  grid-area: header;
+}
+.navegador {
+  width: 100%;
+  height: 20px;
+  grid-area: nav;
+  border-bottom: 1px solid blue;
+  border-radius: 15px;
+}
+
+.secciones {
+  border: 3px solid rgba(64, 244, 244, 0.963);
+  grid-area: secciones;
+}
+
+.nav-1 {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.nav-1 a {
+  padding: 5px;
+  font-size: 40px;
+}
+.luna-murcielago {
+  display: flex;
+  margin-left: 400px;
+}
+
+.borderBlood-img img {
+  width: 100%;
+  height: 320px;
+}
+
+.texto-de-la-pagina {
+  color: red;
+  font-size: 30px;
+}
+.container2 {
+  margin: 20px;
+}
+.nav-2 {
+  border: 1px solid #000;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 60px;
+  position: absolute;
+  font-family: Cambria, "Times New Roman", serif;
+  color: crimson;
+  margin: 20px 0 0 90px;
+}
+
+/*imagenes del body*/
+.colmillos-maquillaje {
+  width: 300px;
+  height: 300px;
+}
+.img-spider {
+  padding-right: 300px;
+  width: 120px;
+  height: 200px;
+}
+.img-ColmillosMaquillaje {
+  width: 50px;
+  height: 40px;
+}
+
+.cereza-craneo {
+  height: 250px;
+  width: 250px;
+}
+
+.img-cerezasPixeladas {
+  width: 200px;
+  height: 260;
+}
+
+.img-zapatillasRock {
+  width: 400px;
+  height: 260px;
+}
+
+.img-chicaPinUp {
+  width: 200px;
+  height: 240px;
+}
+
+.img-accesorios {
+  width: 200px;
+  height: 250px;
+}
+
+h2 {
+  font-size: 70px;
+  color: black;
+}
+
+.imagenes-nav2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.imagenes-nav2 img {
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+}
+
+/*footers*/
+.footer {
+  border: 2px solid rgb(106, 219, 230);
+  grid-area: footer;
+  padding: 2px 1px 2px 1px;
+  float: right;
+  width: 100%;
+  height: 100px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container ul {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.footer-container ul,
+li {
+  margin: 10px 6px 3 3;
+}
+.logo img {
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+
+@media  {
+  
+}
+  
+}
